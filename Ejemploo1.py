@@ -1,10 +1,14 @@
-x = 10
-y = 5
-z = x + y
+# Definición de constantes
+numero1 = 10
+numero2 = 5
+suma = numero1 + numero2
 
-def f(a, b):
-    c = a * b
-    return c
+# Función que multiplica dos números
+def multiplicar(val1, val2):
+    return val1 * val2
 
-resultado = f(x, z)
+# Calcular el resultado
+resultado = multiplicar(numero1, suma)
+
+# Imprimir el resultado
 print(resultado)
